@@ -1,0 +1,17 @@
+.card {
+	background-color: hsl(244, 38%, 16%);
+	margin: 250px;
+	height: 20rem;
+	width: 70%;
+    color: #FFFFFF;
+}
+.container {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#purple {
+    
+}
