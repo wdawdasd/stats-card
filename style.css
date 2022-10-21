@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 body {
 	background-color: hsl(233, 47%, 7%);
+	overflow: hidden;
 }
 .card {
 	background-color: hsl(244, 38%, 16%);
 	margin: 250px;
-	height: 20rem;
+	height: 25rem;
 	width: 70%;
     color: #FFFFFF;
 	font-family: 'Inter', sans-serif;
+	border-radius: 20px;
+	
 }
 .container {
 	height: 100%;
