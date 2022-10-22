@@ -40,6 +40,7 @@ body {
 	margin-top: 1rem;
 	color: hsla(0, 0%, 100%, 0.75);
 }
+/*implementing the stats at bottom */
 .stats {
 	display: grid;
 	grid-template-columns: repeat(3, 7rem);
@@ -53,12 +54,14 @@ body {
 .stats1 {
 	grid-area: 1 / 1 / 2 / 2;
 }
+
 .stats1 p, .stats2 p {
 	font-family: 'Lexend Deca', sans-serif;
 	color: hsla(0, 0%, 100%, 0.75);
 	margin: 0.1rem auto;
 	font-size: 15px;
 }
+
 .stats1 h2, .stats2 h2 {
 	margin: 0.1rem auto;
 }
@@ -67,5 +70,5 @@ body {
 	margin: 0.1rem auto;
 }
 .stats3 {
-	
+
 }
