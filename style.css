@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
 body {
 	background-color: hsl(233, 47%, 7%);
-	
 }
 .card {
 	background-color: hsl(244, 38%, 16%);
@@ -10,10 +9,10 @@ body {
 	margin-bottom: 2rem;
 	height: 30rem;
 	width: 70%;
-    color: #FFFFFF;
-	font-family: 'Inter', sans-serif;
+	color: #ffffff;
+	font-family: "Inter", sans-serif;
 	border-radius: 20px;
-	
+	overflow: hidden;
 }
 .container {
 	height: 100%;
@@ -23,17 +22,17 @@ body {
 	align-items: center;
 }
 #purple {
-    color: hsl(277, 64%, 61%);
+	color: hsl(277, 64%, 61%);
 }
-.text, .paragraph {
+.text,
+.paragraph {
 	height: 10rem;
 	width: 22rem;
-	padding-top: 2.5rem;
+	padding-top: 3rem;
 	padding-left: 3rem;
 	padding-bottom: 0px;
 	margin-bottom: -25px;
-	font-family: 'Lexend Deca', sans-serif;
-	
+	font-family: "Lexend Deca", sans-serif;
 }
 .paragraph {
 	padding-top: 0px;
@@ -55,14 +54,18 @@ body {
 	grid-area: 1 / 1 / 2 / 2;
 }
 
-.stats1 p, .stats2 p {
-	font-family: 'Lexend Deca', sans-serif;
+.stats1 p,
+.stats2 p,
+.stats3 p {
+	font-family: "Lexend Deca", sans-serif;
 	color: hsla(0, 0%, 100%, 0.75);
 	margin: 0.1rem auto;
 	font-size: 15px;
 }
 
-.stats1 h2, .stats2 h2 {
+.stats1 h2,
+.stats2 h2,
+.stats3 h2 {
 	margin: 0.1rem auto;
 }
 .stats2 {
@@ -70,5 +73,23 @@ body {
 	margin: 0.1rem auto;
 }
 .stats3 {
-
+	grid-area: 1 / 3 / 2 / 4;
+	margin: 0.1rem auto;
+}
+.pic {
+	display: grid;
+	grid-template-columns: 7rem;
+	grid-template-rows: 7rem;
+	column-gap: 0px;
+	row-gap: 0px;
+	margin-top: -28.5rem;
+	margin-left: 36.5rem;
+	opacity: 0.5;
+	height: 30rem;
+	background-color: hsl(277, 64%, 61%);
+}
+img {
+	height: 30rem;
+	opacity: 0.4;
+	background-color: #ffffff;
 }
